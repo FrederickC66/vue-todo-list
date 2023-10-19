@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+# Notes for Vue.js
+---
+- The App.vue file is the single-file component. It houses all the JavaScript, HTML, and CSS. (This is the main selling point of Vue)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- The `<script>` tag is used to write functions. You can then use it in the `<template>` tag. You can make a JavaScript file containing the 
+App.vue and a CSS file if you want to seperate for better readability.
